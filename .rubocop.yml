@@ -1,0 +1,14 @@
+inherit_from: .rubocop_todo.yml
+
+# Ref: https://github.com/bbatsov/rubocop/blob/master/config/default.yml
+AllCops:
+  Rails:
+    Enabled: true
+  Exclude:
+    - Guardfile
+    - bin/*
+    - vendor/**/*
+Metrics/LineLength:
+  Max: 120
+inherit_from:
+  - .rubocop_todo.yml
