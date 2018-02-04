@@ -1,5 +1,8 @@
 {
   "name": "rails_jquery_demoi",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "raty-js": "^2.8.0"
+  }
 }
