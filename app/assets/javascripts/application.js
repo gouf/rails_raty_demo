@@ -12,6 +12,8 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require jquery
+//= require raty-js
 //= require_tree .
 //= require nprogress
 //= require nprogress-turbolinks
