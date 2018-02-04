@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Title:
+  = @review.title
+p
+  strong Comment:
+  = @review.comment
+p
+  strong Rate:
+  = @review.rate
+
+=> link_to 'Edit', edit_review_path(@review)
+'|
+=< link_to 'Back', reviews_path
