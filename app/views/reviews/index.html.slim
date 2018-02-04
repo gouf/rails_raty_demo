@@ -15,7 +15,7 @@ table
       tr
         td = review.title
         td = review.comment
-        td = review.rate
+        td = tag.div('', class: 'raty-read', data: {rating: review.rate})
         td = link_to 'Show', review
         td = link_to 'Edit', edit_review_path(review)
         td = link_to 'Destroy', review, data: { confirm: 'Are you sure?' }, method: :delete

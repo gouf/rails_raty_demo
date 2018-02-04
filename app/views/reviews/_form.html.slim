@@ -14,5 +14,8 @@
     = f.text_area :comment
   .field
     = f.label :rate
-    = f.number_field :rate
+    = tag.div('', class: 'raty', data: { rating: @review.rate })
+    / this hidden field will manipulated by raty-js
+    / See: app/assets/javascripts/reviews.js
+    = f.hidden_field :rate
   .actions = f.submit
