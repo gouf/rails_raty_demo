@@ -7,18 +7,22 @@ Things you may want to cover:
 
 * Ruby version
 
-* System dependencies
+2.5.0 or higher
 
-* Configuration
+* Setup
 
-* Database creation
+```sh
+# Rubygems
+bundle install
 
-* Database initialization
+# JavaScript Library
+yarn install
 
-* How to run the test suite
+# Database creation
+rails db:create
+# Database initialization
+rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Up & Run Rails server
+bundle exec rails server # => http://localhost:3000/
+```
