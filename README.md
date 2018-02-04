@@ -26,3 +26,7 @@ rails db:migrate
 # Up & Run Rails server
 bundle exec rails server # => http://localhost:3000/
 ```
+
+# Link
+
+* [wbotelhos/raty: :star2: jQuery Raty - A Star Rating Plugin](https://github.com/wbotelhos/raty)
