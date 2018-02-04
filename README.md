@@ -22,6 +22,7 @@ yarn install
 rails db:create
 # Database initialization
 rails db:migrate
+rails db:seed
 
 # Up & Run Rails server
 bundle exec rails server # => http://localhost:3000/
