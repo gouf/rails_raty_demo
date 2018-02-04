@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Review.destroy_all
+(1..3).each do |i|
+  Review.create(
+    title: "test0#{i}",
+    comment: 'comment ' * 6,
+    rate: [*(1..5)].sample
+  )
+end
